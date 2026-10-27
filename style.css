@@ -1,0 +1,121 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #4A3E3D;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #4A3E3D;
+}
+
+P {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #4A3E3D;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* DIVS AQUI */
+    .container {
+     display: flex;
+     flex-direction: column;
+     align-items: center; /* Centraliza na horizontal */
+     height: auto;           /* Ocupa 100% da altura da tela */
+     background-color: #866c782c;
+     width: 350px;
+     margin-top: 20px;
+     border-radius: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     border: 2px solid #4a3e3d62;
+    }
+
+    .headest {
+        background-color: #FFB6C1;
+        border-radius: 60px;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid #4a3e3d62;
+    }
+
+    .parts {
+        background-color: #FFB6C1;
+        border-radius: 60px;
+        width: 300px;
+        margin-bottom: 30px;
+        border: 2px solid #4a3e3d62;
+
+    }
+
+body {
+    background-color: #FFF0F5;
+}
+
+hr {
+    width: 85%;
+    border: none;
+    height: 3px;
+    background-color: #996782;
+    border-radius: 15px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #4A3E3D;
+}
+
+table {
+    width: 80%;
+    border-collapse: separate; /* Une as bordas das células */
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+    background-color:#c9909894; 
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+  }
+  
+  th {
+    color: #333;
+  }
+
+  .mizuki {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid #4a3e3d62;
+  }
+
+  .trace {
+    width: 70%;
+    border: none;
+    height: 2px;
+    background-color: #9274849f;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  a {
+    text-decoration: none;
+     cursor: pointer;
+  }
